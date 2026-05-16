@@ -1,54 +1,55 @@
 # SVMT
 Structure-Valid Mask Transformer
 
+---
 
-################## Environment setup #########################
-python 3.10
-cuda 11.8
+###################### Environment Setup####################
 
-We provide the environment configuration for reproducibility.
+- Python 3.10  
+- CUDA 11.8  
 
+We provide the environment configuration for reproducibility:
+
+```bash
 conda env create -f environment.yml
 conda activate hc
 
 
-#################### Dataset Structure #########################
+###################### Dataset Structure####################
+
 Our dataset is organized as follows:
 
 data/
 ├── data1/
-│   ├── imgs/
-│   │   ├── 0000.png
-│   │   ├── 0001.png
-│   │   ├── ...
-│   ├── mask.png
+│ ├── imgs/
+│ │ ├── 0000.png
+│ │ ├── 0001.png
+│ │ ├── ...
+│ ├── mask.png
 │
 ├── data2/
-│   ├── imgs/
-│   │   ├── 0000.png
-│   │   ├── 0001.png
-│   │   ├── ...
-│   ├── mask.png
+│ ├── imgs/
+│ │ ├── 0000.png
+│ ├── mask.png
 │
 ├── data3/
-│   ├── imgs/
-│   ├── mask.png
-│   └── ...
+│ ├── imgs/
+│ ├── mask.png
 │
 └── test_data/
-    ├── imgs/
-    │   ├── 0000.png
-    │   ├── 0001.png
-    │   ├── ...
-    ├── mask.png
+├── imgs/
+│ ├── 0000.png
+│ ├── 0001.png
+│ ├── ...
+├── mask.png
 
-`test_data` is a sample scene for testing and visualization
+test_data is a sample scene for testing and visualization.
 
 ##################### train ####################
-run train.py
+python train.py
 
 The training hyperparameters are defined at the beginning of train.py.
 The model architecture and all model-specific configurations are implemented in model/SVMT.py.
 
-#################### test####################
-run test.py
+#################### test ####################
+python test.py
