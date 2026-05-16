@@ -7,9 +7,10 @@ python 3.10
 cuda 11.8
 
 We provide the environment configuration for reproducibility.
-```bash
+
 conda env create -f environment.yml
 conda activate hc
+
 
 #################### Dataset Structure #########################
 Our dataset is organized as follows:
