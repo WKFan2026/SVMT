@@ -46,10 +46,14 @@ data/
 test_data is a sample scene for testing and visualization.
 
 ##################### train ####################
+```bash
 python train.py
 
-The training hyperparameters are defined at the beginning of train.py.
-The model architecture and all model-specific configurations are implemented in model/SVMT.py.
+#The training hyperparameters are defined at the beginning of train.py.
+#The model architecture and all model-specific configurations are implemented in model/SVMT.py.
+```
 
 #################### test ####################
+```bash
 python test.py
+```
