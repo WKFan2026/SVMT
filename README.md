@@ -56,4 +56,7 @@ python train.py
 ## test 
 ```bash
 python test.py
+
+#The pretrained depth model checkpoint `checkpoint_depth_model.pt` can be downloaded from the following Google Drive link:
+#Google Drive: xxxx
 ```
