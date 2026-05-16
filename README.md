@@ -45,7 +45,7 @@ data/
 ```
 test_data is a sample scene for testing and visualization.
 
-## train 
+### train 
 ```bash
 python train.py
 
