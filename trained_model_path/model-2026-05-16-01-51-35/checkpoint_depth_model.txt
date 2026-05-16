@@ -2,4 +2,4 @@
 
 The pretrained depth model checkpoint `checkpoint_depth_model.pt` can be downloaded from the following Google Drive link:
 
-Google Drive: xxxx
+Google Drive: https://drive.google.com/file/d/1fPJ6zssoSve0-HJZgJS38twh2_wM7bMi/view?usp=drive_link
