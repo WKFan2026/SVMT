@@ -13,12 +13,12 @@ We provide the environment configuration for reproducibility:
 ```bash
 conda env create -f environment.yml
 conda activate hc
-
+```
 
 ###################### Dataset Structure####################
 
 Our dataset is organized as follows:
-
+```bash
 data/
 ├── data1/
 │ ├── imgs/
@@ -42,7 +42,7 @@ data/
 │ ├── 0001.png
 │ ├── ...
 ├── mask.png
-
+```
 test_data is a sample scene for testing and visualization.
 
 ##################### train ####################
