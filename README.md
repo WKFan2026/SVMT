@@ -3,7 +3,7 @@ Structure-Valid Mask Transformer
 
 ---
 
-### Environment Setup
+## Environment Setup
 
 - Python 3.10  
 - CUDA 11.8  
@@ -15,7 +15,7 @@ conda env create -f environment.yml
 conda activate hc
 ```
 
-### Dataset Structure
+## Dataset Structure
 
 Our dataset is organized as follows:
 ```bash
@@ -45,7 +45,7 @@ data/
 ```
 test_data is a sample scene for testing and visualization.
 
-### train 
+## train 
 ```bash
 python train.py
 
@@ -53,7 +53,7 @@ python train.py
 #The model architecture and all model-specific configurations are implemented in model/SVMT.py.
 ```
 
-### test 
+## test 
 ```bash
 python test.py
 ```
