@@ -14,6 +14,7 @@ conda activate hc
 
 #################### Dataset Structure #########################
 Our dataset is organized as follows:
+'''
 data/
 ├── data1/
 │ ├── imgs/
@@ -32,7 +33,8 @@ data/
 ├── data3/
 │ ├── imgs/
 │ ├── mask.png
-│ └── ...
+│ └── 
+'''
 
 `test_data` is a sample scene for testing and visualization
 
