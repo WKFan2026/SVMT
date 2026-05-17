@@ -15,8 +15,8 @@ from loss import structure_aware_photo_loss
 from loss import depth_consistency_loss as dcl
 
 set_data_path = "train_data/"
-set_model_save_path = "trained_model_path/" #using split data
-set_model_load_flag = True
+set_model_save_path = "trained_model_path/" 
+set_model_load_flag = True # True：resume training from the pretrained checkpoint
 set_model_load_path = "trained_model_path/model-2026-05-16-01-51-35/checkpoint_depth_model.pt"
 set_automask_threshold = 20
 set_downsample_factor = 1
@@ -25,7 +25,7 @@ set_batchsize = 1
 set_epochs = 500
 set_iterations = 500
 set_learning_rate = 1e-6
-set_stage1_epochs = 30
+set_stage1_epochs = 30 
 set_depth_consistency_weight = 2
 set_photo_weight = 20
 set_height = 256
