@@ -22,7 +22,7 @@ set_downsample_factor = 1.0
 set_max_length = 3
 set_height = 256
 set_width = 320
-set_automask_threshold = 10
+set_automask_threshold = 20
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
