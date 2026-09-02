@@ -1,0 +1,14 @@
+{
+  "test_data_root": "test_data/",
+  "trained_depth_model_path": "trained_model_path/model-2026-05-16-01-51-35/checkpoint_depth_model.pt",
+  "save_index": "model-2026-05-16-01-51-35",
+  "batch_size": 1,
+  "downsample_factor": 1.0,
+  "max_length": 3,
+  "height": 256,
+  "width": 320,
+  "svmask_threshold": 10,
+  "normalization_mean": [0.45, 0.45, 0.45],
+  "normalization_std": [0.225, 0.225, 0.225],
+  "data_loader_shuffle": false
+}
