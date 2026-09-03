@@ -75,6 +75,8 @@ Each run saves two checkpoints in its timestamped directory:
 - `checkpoint_best_photo_model.pt`: updated only when `mean_photo_loss` reaches a new minimum.
 - `checkpoint_latest_model.pt`: updated after every epoch and includes the latest model and Adam optimizer state for resuming training.
 
+Set `enable_interval_checkpoint_saving` to `true` in `train_parameters.json` to keep additional checkpoints. With `checkpoint_save_interval_epochs` set to `20`, the training run also saves checkpoints after epochs 20, 40, 60, and so on.
+
 ## Testing
 
 Set `trained_depth_model_path` and `save_index` in `parameters_json/test_parameters.json`. In most cases, use `checkpoint_best_photo_model.pt` for evaluation.
